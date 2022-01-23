@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.startButton {
+  width:200px;
+  height:35px;
+  border: 3px solid rgb(187, 124, 240);
+  border-radius: 5px;
+  padding: 5px;
+  background-color:transparent;
+  font-size: 20px;
+  outline:none;
+  color: rgb(240, 151, 240);
+  text-align: center;
+}
+
+.gameTitle{
+  width: 75%;
+  height: 80px;
+}
+
+.gameTitleAfterEffect{
+  width: 25%;
+  height: 80px;
+}
+
+.Welcome {
+  font-size: 40px;
+  color: rgb(173, 141, 224);
+  text-align: center;
+}
+
+.resetButton {
+  width:150px;
+  height:50px;
+  background-image: url('./assets/reset.png');
+  background-size: cover;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.leaderboard {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.resetText{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: -1px 1px 0 #ff1744,
+                1px 1px 0 #ff1744,
+                1px -1px 0 #ff1744,
+                -1px -1px 0 #ff1744;
+}
+
+.customInput {
+  width:200px;
+  height:30px;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  background-color:transparent;
+  font-size: 20px;
+  outline:none;
+  color:white;
+  font-family: vollkorn;
+  text-align: center;
+}
